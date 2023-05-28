@@ -1,0 +1,6 @@
+INTEREDIARY_OUTPUT_BUCKET: 'women-in-red-intermediary'
+
+# INTERMEDIARY OUTPUTS
+ARTICLE_SCRAPE_DATES: 'afd_article_scrape_dates.parquet'
+AFD_ARTICLE_NAMES: 'afd_names_and_discussion.parquet'
+JOINED_ARTICLE_SCRAPE_DATES_AND_AFD_NAMES: 'afd_articles_and_scraping_metadata.parquet'
