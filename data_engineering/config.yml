@@ -1,6 +1,11 @@
+# BUCKETS
+RAW_BUCKET: 'afd-scraped'
 INTEREDIARY_OUTPUT_BUCKET: 'women-in-red-intermediary'
 
 # INTERMEDIARY OUTPUTS
 ARTICLE_SCRAPE_DATES: 'afd_article_scrape_dates.parquet'
-AFD_ARTICLE_NAMES: 'afd_names_and_discussion.parquet'
+AFD_NAMES_AND_DISCUSSION: 'afd_names_and_discussion.parquet'
+DELETED_VS_POPULATED_AFD_ARTICLES: 'deleted_vs_populated_afd_articles.parquet'
 JOINED_ARTICLE_SCRAPE_DATES_AND_AFD_NAMES: 'afd_articles_and_scraping_metadata.parquet'
+SCRAPED_ARTICLE_TEXT_AND_REFERENCE_TEXT: 'scraped_article_text_and_reference_text.parquet'
+SCRAPED_REFERENCE_LINKS: 'scraped_reference_links.parquet'
